@@ -1,0 +1,40 @@
+.list-heading {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.list {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 0px) {
+  .list {
+    justify-content: center;
+    row-gap: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .list {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .list {
+    gap: 25px;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 800px) {
+  .list {
+    gap: 25px;
+    justify-content: flex-start;
+  }
+}

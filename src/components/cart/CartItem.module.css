@@ -1,0 +1,24 @@
+.btn-remove {
+  background-color: #a7171a;
+  border: none;
+  padding: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-remove:hover {
+  background-color: #b94548;
+}
+
+.product-img {
+  object-fit: cover;
+  width: 60px;
+  /* height: 40px; */
+  height: 60px;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

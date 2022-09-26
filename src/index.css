@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fcfdfb;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+}
+
+.centered {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #222;
+}
+
+.add-to-cart-box {
+  margin-top: 2rem;
+}
+
+.qty-label {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.qty-updown {
+  display: flex;
+  gap: 0px;
+  align-items: center;
+}
+
+.btn-qty {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.btn-qty:not(:disabled) {
+  color: #eee;
+  background-color: #2c365e;
+  cursor: pointer;
+}
+
+.btn-qty:first-of-type {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.btn-qty:disabled:first-of-type {
+  background-color: #aaa;
+  cursor: default;
+  border: none;
+  padding: 7px 14px;
+}
+
+.btn-qty:hover:not(:disabled) {
+  background-color: #384471;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.qty-input {
+  font-size: 18px;
+  width: 103px;
+  padding: 7.2px 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.btn {
+  margin: 1rem auto 0 auto;
+  padding: 12px 32px;
+  font-size: 20px;
+  border: none;
+  background-color: #2c365e;
+  color: #eee;
+  outline: none;
+  cursor: pointer;
+  border-color: #2c365e;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0 1px #2c365e;
+  background-color: transparent;
+  color: #2c365e;
+}
+
+/* Table */
